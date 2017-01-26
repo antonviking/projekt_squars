@@ -9,7 +9,9 @@
     <sprite>sprites\spr_player</sprite>
     <sprite>sprites\spr_wall</sprite>
   </sprites>
-  <backgrounds name="background"/>
+  <backgrounds name="background">
+    <background>background\bg_background1</background>
+  </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts"/>
   <objects name="objects">
@@ -17,7 +19,7 @@
     <object>objects\obj_wall</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\rm_one</room>
+    <room>rooms\rm_room1</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

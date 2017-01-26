@@ -25,10 +25,15 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>///step_event
+            <string>///move the player step event
+
+if  (keyboard_check(ord"w") 
+
+phy_position_x += 4;
 
 
 
+/
 </string>
           </argument>
         </arguments>
@@ -47,7 +52,9 @@
   <PhysicsObjectAwake>-1</PhysicsObjectAwake>
   <PhysicsObjectKinematic>0</PhysicsObjectKinematic>
   <PhysicsShapePoints>
-    <point>16,16</point>
-    <point>16,16</point>
+    <point>32,32</point>
+    <point>0,32</point>
+    <point>0,0</point>
+    <point>32,0</point>
   </PhysicsShapePoints>
 </object>
