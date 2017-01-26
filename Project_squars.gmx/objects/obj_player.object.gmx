@@ -25,15 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>///move the player step event
-
-if  (keyboard_check(ord"w") 
-
-phy_position_x += 4;
-
-
-
-/
+            <string>walkingSpeed = 3;
 </string>
           </argument>
         </arguments>
@@ -59,8 +51,11 @@ phy_position_x += 4;
             <string>//player movment
 
 var xDirection, yDirection;
-xDirection = (keyboard_check(ord("D"))  -   (keyboard_check(ord("A"));
-yDirection = (keyboard_check(ord("S"))  -   (keyboard_check(ord("W"));
+xDirection = keyboard_check(ord("D"))  -   keyboard_check(ord("A"));
+yDirection = keyboard_check(ord("S"))  -   keyboard_check(ord("W"));
+
+x += xDirection * walkingSpeed;
+y += yDirection * walkingSpeed;
 </string>
           </argument>
         </arguments>
